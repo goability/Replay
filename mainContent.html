@@ -1,0 +1,5 @@
+<ng-include src="'navCamera.html'"></ng-include>
+<span class="loadingContent">Loading Content, please wait...</span>
+<span class="imageContent" ng-repeat="camera in CurrentImages">
+  <img class="mySlides" ng-srcset="{{camera.path}}" />
+</span>

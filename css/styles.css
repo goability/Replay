@@ -1,0 +1,94 @@
+.header {
+    font-size: 24px;
+    text-align: left;
+    font-family: arial;
+    width: auto;
+    display:block;
+}
+.headerDateRange {
+  font-size: 12;
+  text-align: right;
+  display: block;
+  border-radius: 5;
+}
+.content {
+  border-width:medium;
+  border-style: solid;
+}
+.footer {
+  border-width:medium;
+  border-radius: 5;
+  border-color: darkgray;
+  background-color: lightgray;
+}
+
+.navMain ul {
+
+  display: inline-flex;
+  border-radius: 50px;
+  background-color: gray;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 10px;
+  overflow: hidden;
+  width: auto;
+}
+
+.navMain li {
+    float: left;
+    widows: auto;
+}
+
+.navMain li a {
+    color: black;
+    text-align: center;
+    padding: 8px 40px;
+    text-decoration: none;
+    margin:1;
+    border-radius: 50px;
+}
+.navMain li a:hover:not(.active) {
+    color: white;
+    background-color: blue;
+
+}
+
+.navCamera ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 50px;
+    width: auto;
+}
+
+.navCamera li {
+    float: left;
+    border-radius: 50px;
+    widows: auto;
+    background-color: silver;
+}
+
+.navCamera li a {
+    display: inline-flex;
+    color: black;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    margin:1;
+    border-radius: 50px;
+}
+.navCamera li a:hover:not(.active) {
+    color: white;
+    background-color: blue;
+
+}
+.mySlides {display:none;}
+.imageContent{display: none;}
+.loadingContent{
+  display:block;
+  font-size: 24;
+  font-style: normal;
+  font-weight: bold;
+}
